@@ -12,3 +12,8 @@ theme kısmına ekleme yapıyoruz.
 vs-code'da alt+ shift+ alt ok aşağıya kopyalıyor.
 
 bol bol dokümana bakmak faydalı
+---
+
+flex-basis yapısı
+flex içindeki elemanların ne kadarlık yer kaplayacağını ayarlamamıza yarıyor.
+mesela 1/4 1/4 ve 1/2 olarak yerleştirebiliriz 3 elemanı grid içerisine.
