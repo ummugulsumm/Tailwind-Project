@@ -22,25 +22,28 @@
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
 
-  <body class="font-open">
+  <body class="font-open relative">
+
+
+
     <!-- Header Section -->
     <header
-      class="bg-black text-gega-grey uppercase py-4 sm:py-8 md:py-10 lg:py-12 px-5"
+      class="bg-black text-gega-grey uppercase py-4 sm:py-8 md:py-10 xl:py-12 px-5"
     >
       <!-- Header Container -->
       <div
-        class="container flex items-center justify-between md:space-x-10 lg:space-x-16"
+        class="container flex items-center justify-between md:space-x-10 xl:space-x-16"
       >
         <!-- Logo -->
         <a
           href="#"
-          class="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-transparent bg-gradient-to-r bg-clip-text from-gega-red to-gega-grey"
+          class="font-bold text-3xl sm:text-4xl md:text-5xl xl:text-6xl text-transparent bg-gradient-to-r bg-clip-text from-gega-red to-gega-grey"
           >Gega</a
         >
 
         <!-- Mobile Menu -->
         <div class="block md:hidden">
-          <div class="space-y-1 cursor-pointer pr-1">
+          <div class="space-y-1 cursor-pointer pr-1 ">
             <div class="bg-gega-grey w-7 h-1 rounded-full"></div>
             <div class="bg-gega-grey w-7 h-1 rounded-full"></div>
             <div class="bg-gega-grey w-7 h-1 rounded-full"></div>
@@ -51,7 +54,7 @@
         <nav class="hidden md:flex items-center justify-between flex-1">
           <!-- Menu -->
           <div
-            class="flex items-center lg:text-lg space-x-3 sm:space-x-4 md:space-x-5 lg:space-x-8"
+            class="flex items-center xl:text-xl space-x-3 sm:space-x-4 md:space-x-5 xl:space-x-8"
           >
             <a href="#" class="hover:text-gega-melon transition duration-300"
               >movies</a
@@ -70,7 +73,7 @@
             >
           </div>
           <!-- Login Section -->
-          <div class="flex items-center space-x-0 lg:space-x-6">
+          <div class="flex items-center space-x-0 xl:space-x-6">
             <!-- Search Area -->
             <form>
               <div
@@ -78,7 +81,7 @@
               >
                 <input
                   type="text"
-                  class="group-hover:border-gega-melon bg-transparent border-b border-gega-grey focus:outline-none w-30 sm:w-32 lg:w-36 xl:w-40 transition duration-300"
+                  class="group-hover:border-gega-melon bg-transparent border-b border-gega-grey focus:outline-none w-30 sm:w-32 xl:w-36 2xl:w-40 transition duration-300"
                 />
                 <button>
                   <i
@@ -89,7 +92,7 @@
             </form>
             <!-- Signup Area -->
             <div
-              class="leading-9 mx-0 lg:flex items-center space-x-2 lg:space-x-4 lg:text-lg"
+              class="leading-9 mx-0 xl:flex items-center space-x-2 xl:space-x-4 xl:text-xl"
             >
               <a
                 href="#"
@@ -106,9 +109,10 @@
         </nav>
       </div>
     </header>
+  
 
     <!-- Hero Section -->
-    <section class="h-96 lg:h-128 group relative">
+    <section class="h-96 xl:h-128 group relative">
       <!-- Hero Image -->
       <img
         src="./images/batman.jpg"
@@ -120,19 +124,19 @@
         class="absolute bottom-0 w-full bg-gradient-to-b from-transparent to-black"
       >
         <!-- Hero Content Container -->
-        <div class="container pl-5 lg:pl-0">
+        <div class="container pl-5 xl:pl-0">
           <h3
-            class="text-gega-melon text-sm lg:text-base tracking-wider group-hover:mb-1 duration-300"
+            class="text-gega-melon text-sm xl:text-base tracking-wider group-hover:mb-1 duration-300"
           >
             Action, Drama, Thriller
           </h3>
           <h1
-            class="text-gega-grey text-3xl md:text-4xl lg:text-6xl group-hover:mb-1 duration-300"
+            class="text-gega-grey text-3xl md:text-4xl xl:text-6xl group-hover:mb-1 duration-300"
           >
             The Dark Knight
           </h1>
           <p
-            class="text-gega-grey text-xs md:text-sm lg:text-base group-hover:mb-2 duration-300 w-3/4 lg:w-2/3"
+            class="text-gega-grey text-xs md:text-sm xl:text-base group-hover:mb-2 duration-300 w-3/4 xl:w-2/3"
           >
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
             dolorum nam dolor, impedit corrupti esse asperiores obcaecati labore
@@ -140,13 +144,13 @@
           </p>
           <!-- Detail Container -->
           <div
-            class="flex space-x-8 opacity-0 group-hover:opacity-100 group-hover:mb-10 lg:group-hover:mb-20 duration-1000"
+            class="flex space-x-8 opacity-0 group-hover:opacity-100 group-hover:mb-10 xl:group-hover:mb-20 duration-1000"
           >
             <!-- Watch -->
             <div class="flex space-x-2 items-center cursor-pointer">
               <a
                 href="#"
-                class="text-gega-grey uppercase lg:text-lg hover:text-gega-red duration-300"
+                class="text-gega-grey uppercase xl:text-xl hover:text-gega-red duration-300"
                 >Watch Trailer</a
               >
               <div
@@ -160,7 +164,7 @@
             <div class="flex space-x-2 items-center cursor-pointer">
               <a
                 href="#"
-                class="text-gega-grey uppercase lg:text-lg hover:text-gega-red duration-300"
+                class="text-gega-grey uppercase xl:text-xl hover:text-gega-red duration-300"
                 >Full Synopsis</a
               >
               <div
@@ -176,21 +180,21 @@
       <div
         class="flex space-x-3 absolute bottom-5 left-10 opacity-0 group-hover:opacity-100 duration-300"
       >
-        <div class="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-gega-red"></div>
-        <div class="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-gega-grey"></div>
-        <div class="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-gega-grey"></div>
-        <div class="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-gega-grey"></div>
+        <div class="w-3 h-3 xl:w-4 xl:h-4 rounded-full bg-gega-red"></div>
+        <div class="w-3 h-3 xl:w-4 xl:h-4 rounded-full bg-gega-grey"></div>
+        <div class="w-3 h-3 xl:w-4 xl:h-4 rounded-full bg-gega-grey"></div>
+        <div class="w-3 h-3 xl:w-4 xl:h-4 rounded-full bg-gega-grey"></div>
       </div>
     </section>
 
     <!-- Movies Section -->
-    <section class="bg-black py-20 lg:py-24">
+    <section class="bg-black py-20 xl:py-24">
       <!-- Movies Content -->
       <div
-        class="container flex flex-col lg:flex-row lg:space-x-16 space-y-8 lg:space-y-0"
+        class="container flex flex-col xl:flex-row xl:space-x-16 space-y-8 xl:space-y-0"
       >
         <!-- Left Content -->
-        <div class="basis-2/3 pl-5 px-5 lg:pl-0 lg:px-0">
+        <div class="basis-2/3 pl-5 px-5 xl:pl-0 xl:px-0">
           <!-- Titles -->
           <div
             class="flex space-x-2 divide-x divide-gega-red divide-opacity-50 mb-8"
@@ -207,7 +211,7 @@
           <div class="flex flex-wrap">
             <!-- Movie 1 -->
             <div
-              class="relative group overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3"
+              class="relative group overflow-hidden basis-1/3 md:basis-1/4 xl:basis-1/3"
             >
               <!-- Movie -->
               <div>
@@ -216,9 +220,9 @@
                   class="group-hover:scale-110 group-hover:opacity-60 duration-500"
                 />
                 <!-- Movie Detail Container -->
-                <div class="absolute px-3 lg:px-6 bottom-6 lg:bottom-8">
+                <div class="absolute px-3 xl:px-6 bottom-6 xl:bottom-8">
                   <h3
-                    class="text-gega-grey group-hover:text-gega-melon lg:group-hover:mb-2 duration-500"
+                    class="text-gega-grey group-hover:text-gega-melon xl:group-hover:mb-2 duration-500"
                   >
                     Oblivion
                   </h3>
@@ -245,7 +249,7 @@
             </div>
             <!-- Movie 2 -->
             <div
-              class="relative group overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3"
+              class="relative group overflow-hidden basis-1/3 md:basis-1/4 xl:basis-1/3"
             >
               <!-- Movie -->
               <div>
@@ -254,9 +258,9 @@
                   class="group-hover:scale-110 group-hover:opacity-60 duration-500"
                 />
                 <!-- Movie Detail Container -->
-                <div class="absolute px-3 lg:px-6 bottom-6 lg:bottom-8">
+                <div class="absolute px-3 xl:px-6 bottom-6 xl:bottom-8">
                   <h3
-                    class="text-gega-grey group-hover:text-gega-melon lg:group-hover:mb-2 duration-500"
+                    class="text-gega-grey group-hover:text-gega-melon xl:group-hover:mb-2 duration-500"
                   >
                     into the wild
                   </h3>
@@ -283,7 +287,7 @@
             </div>
             <!-- Movie 3 -->
             <div
-              class="relative group overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3"
+              class="relative group overflow-hidden basis-1/3 md:basis-1/4 xl:basis-1/3"
             >
               <!-- Movie -->
               <div>
@@ -292,9 +296,9 @@
                   class="group-hover:scale-110 group-hover:opacity-60 duration-500"
                 />
                 <!-- Movie Detail Container -->
-                <div class="absolute px-3 lg:px-6 bottom-6 lg:bottom-8">
+                <div class="absolute px-3 xl:px-6 bottom-6 xl:bottom-8">
                   <h3
-                    class="text-gega-grey group-hover:text-gega-melon lg:group-hover:mb-2 duration-500"
+                    class="text-gega-grey group-hover:text-gega-melon xl:group-hover:mb-2 duration-500"
                   >
                     mulholland drive
                   </h3>
@@ -321,7 +325,7 @@
             </div>
             <!-- Movie 4 -->
             <div
-              class="relative group overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3"
+              class="relative group overflow-hidden basis-1/3 md:basis-1/4 xl:basis-1/3"
             >
               <!-- Movie -->
               <div>
@@ -330,9 +334,9 @@
                   class="group-hover:scale-110 group-hover:opacity-60 duration-500"
                 />
                 <!-- Movie Detail Container -->
-                <div class="absolute px-3 lg:px-6 bottom-6 lg:bottom-8">
+                <div class="absolute px-3 xl:px-6 bottom-6 xl:bottom-8">
                   <h3
-                    class="text-gega-grey group-hover:text-gega-melon lg:group-hover:mb-2 duration-500"
+                    class="text-gega-grey group-hover:text-gega-melon xl:group-hover:mb-2 duration-500"
                   >
                     Blade Runner 2049
                   </h3>
@@ -359,7 +363,7 @@
             </div>
             <!-- Movie 5 -->
             <div
-              class="relative group overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3"
+              class="relative group overflow-hidden basis-1/3 md:basis-1/4 xl:basis-1/3"
             >
               <!-- Movie -->
               <div>
@@ -368,9 +372,9 @@
                   class="group-hover:scale-110 group-hover:opacity-60 duration-500"
                 />
                 <!-- Movie Detail Container -->
-                <div class="absolute px-3 lg:px-6 bottom-6 lg:bottom-8">
+                <div class="absolute px-3 xl:px-6 bottom-6 xl:bottom-8">
                   <h3
-                    class="text-gega-grey group-hover:text-gega-melon lg:group-hover:mb-2 duration-500"
+                    class="text-gega-grey group-hover:text-gega-melon xl:group-hover:mb-2 duration-500"
                   >
                     The Forrest
                   </h3>
@@ -397,7 +401,7 @@
             </div>
             <!-- Movie 6 -->
             <div
-              class="relative group overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3"
+              class="relative group overflow-hidden basis-1/3 md:basis-1/4 xl:basis-1/3"
             >
               <!-- Movie -->
               <div>
@@ -406,9 +410,9 @@
                   class="group-hover:scale-110 group-hover:opacity-60 duration-500"
                 />
                 <!-- Movie Detail Container -->
-                <div class="absolute px-3 lg:px-6 bottom-6 lg:bottom-8">
+                <div class="absolute px-3 xl:px-6 bottom-6 xl:bottom-8">
                   <h3
-                    class="text-gega-grey group-hover:text-gega-melon lg:group-hover:mb-2 duration-500"
+                    class="text-gega-grey group-hover:text-gega-melon xl:group-hover:mb-2 duration-500"
                   >
                     Skyfall
                   </h3>
@@ -435,7 +439,7 @@
             </div>
             <!-- Movie 7 -->
             <div
-              class="relative group overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3 hidden md:block lg:hidden"
+              class="relative group overflow-hidden basis-1/3 md:basis-1/4 xl:basis-1/3 hidden md:block xl:hidden"
             >
               <!-- Movie -->
               <div>
@@ -444,9 +448,9 @@
                   class="group-hover:scale-110 group-hover:opacity-60 duration-500"
                 />
                 <!-- Movie Detail Container -->
-                <div class="absolute px-3 lg:px-6 bottom-6 lg:bottom-8">
+                <div class="absolute px-3 xl:px-6 bottom-6 xl:bottom-8">
                   <h3
-                    class="text-gega-grey group-hover:text-gega-melon lg:group-hover:mb-2 duration-500"
+                    class="text-gega-grey group-hover:text-gega-melon xl:group-hover:mb-2 duration-500"
                   >
                     Oblivion
                   </h3>
@@ -473,7 +477,7 @@
             </div>
             <!-- Movie 8 -->
             <div
-              class="relative group overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3 hidden md:block lg:hidden"
+              class="relative group overflow-hidden basis-1/3 md:basis-1/4 xl:basis-1/3 hidden md:block xl:hidden"
             >
               <!-- Movie -->
               <div>
@@ -482,9 +486,9 @@
                   class="group-hover:scale-110 group-hover:opacity-60 duration-500"
                 />
                 <!-- Movie Detail Container -->
-                <div class="absolute px-3 lg:px-6 bottom-6 lg:bottom-8">
+                <div class="absolute px-3 xl:px-6 bottom-6 xl:bottom-8">
                   <h3
-                    class="text-gega-grey group-hover:text-gega-melon lg:group-hover:mb-2 duration-500"
+                    class="text-gega-grey group-hover:text-gega-melon xl:group-hover:mb-2 duration-500"
                   >
                     into the wild
                   </h3>
@@ -512,12 +516,12 @@
           </div>
         </div>
         <!-- Right Content -->
-        <div class="basis-1/3 pl-5 px-5 lg:pl-0 lg:px-0">
+        <div class="basis-1/3 pl-5 px-5 xl:pl-0 xl:px-0">
           <!-- Title -->
           <h2 class="text-gega-grey mb-8 hover:text-gega-red">Hot News</h2>
           <!-- News Container -->
           <div
-            class="flex flex-row lg:flex-col lg:h-full justify-start lg:justify-between lg:pb-16 flex-wrap lg:flex-nowrap space-y-4"
+            class="flex flex-row xl:flex-col xl:h-full justify-start xl:justify-between xl:pb-16 flex-wrap xl:flex-nowrap space-y-4"
           >
             <!-- Item -->
             <div class="flex items-center group basis-3/4 md:basis-1/2">
@@ -609,7 +613,7 @@
             </div>
             <!-- Item -->
             <div
-              class="flex items-center group basis-3/4 md:basis-1/2 md:hidden lg:flex"
+              class="flex items-center group basis-3/4 md:basis-1/2 md:hidden xl:flex"
             >
               <!-- New Image Container -->
               <div class="basis-1/3 h-full">
@@ -641,11 +645,11 @@
       <!-- Matrix container section -->
       <div class="container flex items-center justify-center relative">
         <!-- Left Container -->
-        <div class="hidden md:block basis-2/3 lg:basis-1/2">
+        <div class="hidden md:block basis-2/3 xl:basis-1/2">
           <img src="./images/matrix.png" alt="" class="absolute md:bottom-0" />
         </div>
         <!-- Right Container -->
-        <div class="basis-2/3 md:basis-1/4 lg:basis-1/2">
+        <div class="basis-2/3 md:basis-1/4 xl:basis-1/2">
           <div class="flex flex-col justify-center py-10">
             <h3 class="text-gega-melon tracking-wider">
               Action, Drama, Thriller
@@ -661,7 +665,7 @@
         </div>
         <!-- Oldie -->
         <div
-          class="absolute -top-12 left-3 lg:left-0 md:w-24 md:h-24 w-20 h-20 rounded-full bg-gega-melon text-center justify-center flex items-center"
+          class="absolute -top-12 left-3 xl:left-0 md:w-24 md:h-24 w-20 h-20 rounded-full bg-gega-melon text-center justify-center flex items-center"
         >
           <p
             class="font-gemunu uppercase font-bold md:text-xl text-gega-red -rotate-45"
@@ -673,7 +677,7 @@
     </section>
 
     <!-- Blog Section -->
-    <section class="pl-5 lg:pl-0 pr-5 lg:pr-0 py-20 lg:py-24 bg-black text-gega-grey ">
+    <section class="px-5 xl:px-0 py-20 xl:py-24 bg-black text-gega-grey ">
       <!-- Container -->
       <div class="container">
         <!-- Title -->
@@ -682,9 +686,9 @@
         </h2>
 
         <!-- Grid Area -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-6 gap-10">
           <!-- Item 1 -->
-          <div class="col-span-1  lg:col-span-3 border border-gega-red">
+          <div class="col-span-1  xl:col-span-3 border border-gega-red">
             <!-- Item 1 Header -->
             <div
               class="flex p-4 items-center justify-between border-b border-gega-red"
@@ -714,7 +718,7 @@
             </div>
           </div>
           <!-- Item 2 -->
-          <div class="col-span-1  lg:col-span-3 border border-gega-red">
+          <div class="col-span-1  xl:col-span-3 border border-gega-red">
             <!-- Item 2 Header -->
             <div
               class="flex p-4 items-center justify-between border-b border-gega-red"
@@ -744,7 +748,7 @@
             </div>
           </div>
           <!-- Item 3 -->
-          <div class="col-span-1  lg:col-span-2 border border-gega-red">
+          <div class="col-span-1  xl:col-span-2 border border-gega-red">
             <!-- Item 3 Header -->
             <div
               class="flex p-4 items-center justify-between border-b border-gega-red"
@@ -774,7 +778,7 @@
             </div>
           </div>
           <!-- Item 4 -->
-          <div class="col-span-1  lg:col-span-2 border border-gega-red">
+          <div class="col-span-1  xl:col-span-2 border border-gega-red">
             <!-- Item 4 Header -->
             <div
               class="flex p-4 items-center justify-between border-b border-gega-red"
@@ -804,7 +808,7 @@
             </div>
           </div>
           <!-- Item 5 -->
-          <div class="col-span-1  lg:col-span-2 border border-gega-red">
+          <div class="md:hidden xl:block col-span-1  xl:col-span-2 border border-gega-red">
             <!-- Item 5 Header -->
             <div
               class="flex p-4 items-center justify-between border-b border-gega-red"
@@ -836,5 +840,56 @@
         </div>
       </div>
     </section>
+
+    <!-- Footor Section -->
+    <footer class="bg-black text-gega-grey">
+      <!-- Footer Container -->
+      <div class="container grid lg:grid-cols-3  pb-8 px-5 xl:px-0 gap-10">
+        <!-- Left -->
+        <div class="col-span-1">
+          <a
+          href="#"
+          class="font-bold text-2xl sm:text-3xl md:text-4xl xl:text-5xl text-transparent bg-gradient-to-r bg-clip-text from-gega-red to-gega-grey uppercase"
+          >Gega</a>
+          <p class="text-xs italic mt-2 whitespace-nowrap">2023 Ümmügülsüm Erol No &copy; COPYRIGHT
+          <p class="text-xs italic mt-2 whitespace-nowrap">- with <a href="https://www.youtube.com/@ArinYazilim" target="_blank" >Arin Yazılım</a></p>
+        </div>
+        <!-- Medium -->
+        <div class="col-span-1">
+          <h2 class="mb-2  text-gega-red transition duration-300">Links</h2>
+          <div class="grid grid-cols-5 gap-2 uppercase">
+            <a href="#" class="col-span-2 hover:text-gega-melon transition duration-300">movies</a>
+            <a href="#" class="col-span-2 hover:text-gega-melon transition duration-300">celebrities</a>
+            <a href="#" class="col-span-2 hover:text-gega-melon transition duration-300">blog</a>
+            <a href="#" class="col-span-2 hover:text-gega-melon transition duration-300">news</a>
+            <a href="#" class="col-span-2 hover:text-gega-melon transition duration-300">about</a>
+          </div>
+        </div>
+        <!-- Right -->
+        <div class="col-span-1">
+          <h2 class="mb-2  text-gega-red transition duration-300">Follow Us</h2>
+          <form action="" class="flex">
+            <input type="text" class="py-1 px-2 bg-transparent border border-gega-red placeholder:text-xs outline-none" placeholder="Type Your Email">
+            <button class="py-1 px-2  border border-gega-red bg-gega-red hover:bg-rose-600 transition duration-300 font-gemunu uppercase">Subscribe</button>
+          </form>
+          <!-- Icons -->
+          <div class="flex mt-3 gap-5">
+            <a href="https://www.linkedin.com/in/ummugulsumerol" target="_blank" >
+              <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+            </a>
+            <a href="https://github.com/ummugulsumm" target="_blank" >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </footer>
+
+    <script src="./js/script.js"></script>
+
   </body>
 </html>
